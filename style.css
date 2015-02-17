@@ -1,0 +1,404 @@
+body{
+	background-color: #A8B9C2; 
+	width:100%; 
+	height:100%;
+	margin:0px;
+}
+
+header{
+	width:100%; 
+	background: url("Images/Header1.jpg") bottom left repeat-x;
+	background-color: white; 
+	text-align: center; 
+	max-height: 160px; 
+}
+header img{
+	max-height:150px; 
+	display: inline-block
+}
+header h1{
+	display: inline-block; 
+	color:#82ABCA;
+	font-size: 50px; 
+	vertical-align: middle; 
+	font-family: "Berlin Sans FB Demi", "Arial Black", serif; 
+	position: relative;
+	bottom: 65px; 
+	left: 10px; 
+}
+
+#imageHeader1{
+	width:100%; 
+	height:120px; 
+	background-color: #82ABCA;
+}
+#imageHeader2{
+	margin-left:15%; 
+	width:70%; 
+	height:120px; 
+	background: url("Images/Header.jpg") center center repeat;
+}
+
+#corpsExt{
+	width:100%; 
+	background: #A8B9C2 url("Images/Deg1.jpg") top right repeat-x;
+}
+
+#corps{
+	width:70%; 
+	background-color: white; 
+	margin-left:15%;
+	padding-bottom: 20px;
+	overflow:auto;
+}
+
+#corps h1{
+	text-align: center;
+}
+
+nav#bot{
+	text-align: center;
+	margin-bottom: 140px;
+}
+nav#bot a{
+	text-decoration: none; 
+	color:black;
+	font-weight: bold; 
+}
+nav#bot a:hover{
+	text-decoration: underline;
+	color:#82ABCA;
+}
+
+
+#menubot{
+	position: fixed; 
+	bottom: 0px; 
+	z-index: 1000;
+}
+
+#menubotPermis{
+	background-color: #82ABCA;
+	width: 200px; 
+	text-align: center;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+	border: 2px outset black;
+	position:relative;
+	display: inline-block;
+
+}
+#menubotSkinautique{
+	background-color: #82ABCA;
+	width: 200px; 
+	text-align: center;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+	border: 2px outset black;
+	position:relative;
+	display: inline-block;
+	margin-left: 15px;
+
+}
+
+#menubotVoile{
+	background-color: #82ABCA;
+	width: 200px; 
+	text-align: center;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+	border: 2px outset black;
+	position:relative;
+	display: inline-block;
+	margin-left: 15px;
+
+}
+
+#menubotWake{
+	background-color: #82ABCA;
+	width: 200px; 
+	text-align: center;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+	border: 2px outset black;
+	position:relative;
+	display: inline-block;
+	margin-left: 15px;
+
+}
+#menubotPermis ul{
+	padding: 0px; 
+}
+#menubotSkinautique ul{
+	padding: 0px; 
+}
+#menubotVoile ul{
+	padding: 0px; 
+}
+#menubotWake ul{
+	padding: 0px; 
+}
+
+.menubotTitre, .menubotItem{
+	list-style: none;
+
+} 
+
+.menubotTitre a{
+	color: black;
+	text-decoration: none; 
+	font-size: 1.2em; 
+	font-weight: bold; 
+	position: relative; 
+	bottom: 10px;  
+}
+.menubotTitre a:hover{
+	color: green;
+}
+.menubotItem a{
+	color: black;
+	text-decoration: none; 
+}
+.menubotItem a:hover{
+	color: green;
+	text-decoration: underline; 
+}
+
+
+/*
+ * 
+ * Fin des Reglages General de Style Début page d'accueil
+ * 
+ */
+
+
+.slides_container {
+ 	width:375px;
+    height:250px;
+    margin:20px;
+    display:inline-block;
+    position:relative;
+}
+.slides_container div {
+    width:375px;
+    height:250px;
+    display:inline-block;
+}
+#imageAccueil{
+	float:left;
+}
+
+#textAccueil{
+	margin-left:400px;
+	vertical-align: middle; 
+	width: 600px;
+	position: relative; 
+	top:20px;
+}
+#textAccueil a{
+	text-decoration: none; 
+	color : #82ABCA;
+	font-weight: bold; 
+}
+#textAccueil a:hover{
+	text-decoration: underline;
+}
+
+
+/*
+ * 
+ * Début Style Permis 
+ * 
+ * 
+ */
+
+
+#examenTheorique{
+	border:1px solid black;
+	width:95%;
+	padding:15px;
+	text-align: left;
+}
+#examenTheorique img{
+	float:left;
+	margin-right:60px;
+}
+#examenTheorique h4{
+	margin-left: 5%;
+	margin-top: 10px;
+}
+#examenTheorique h5{
+	margin-bottom: 5px;
+}
+#examenPratique{
+	border:1px solid black;
+	width:95%;
+	padding:15px;
+	margin-top:10px;
+	text-align: left;
+}
+#examenPratique img{
+	float:left;
+	margin-right:60px;
+	margin-top: 20px;
+}
+#examenPratique h4{
+	margin-left: 5%;
+	margin-top: 10px;
+}
+#examenPratique h5{
+	margin-bottom: 5px;
+}
+
+#TheorieHauturier{
+	width:800px; 
+	border:1px solid black; 
+	height:325px;
+	position:relative; 
+	left:50%; 
+	margin-left: -400px;
+}
+#TheorieHauturier img{
+	float:left;  
+}
+#Affiche{
+	width:33%;
+	border:3px solid black; 
+}
+#Affiche:hover{
+	width:33%;
+	border:3px solid #3C45CB; 
+	cursor: pointer;
+}
+
+#corps h6{
+	text-align: center;
+	margin-top: 0px;
+}
+
+#planningHauturier{
+	width:40%;
+	margin:20px;
+	margin-left: 20%;
+	text-align: center;
+}
+#planningHauturier td{
+	border:1px solid black;
+}
+#imgCRR{
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+#corpsInt{
+	margin:10%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align: center; 
+}
+
+#PlanningCrr{
+	width:40%;
+	margin:20px;
+	margin-left:0px;
+	text-align: center;
+	float:left; 
+}
+#PlanningCrr td{
+	border:1px solid black;
+}
+#TheorieCRR{
+	width:800px; 
+	padding:20px; 	
+	border:1px solid black; 
+	position:relative; 
+	left:50%; 
+	margin-left: -420px;
+	text-align: left;
+}
+#TheorieCRR img{
+	float:left;  
+	margin:40px;
+	margin-left: 0px; 
+}
+
+/*
+ * 
+ * Style Ski Nautique 
+ * 
+ */
+
+
+#listLien{
+	border:3px outset grey;
+	border-radius : 20px;
+	width: 470px;	
+	position: relative; 
+	left:50%; 
+	padding:20px;
+	margin-left: -255px; 
+}
+#listLien a{
+	text-decoration: none; 
+	color : #82ABCA;
+	font-weight: bold; 
+}
+#listLien a:hover{
+	text-decoration: underline;
+}
+#textContact{
+	border:3px outset grey;
+	border-radius: 20px;
+	width:300px;
+	padding-bottom: 10px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+	position: relative; 
+	top:100px;
+	float:right;
+}
+#maps{
+	width:600px;
+	float:left; 
+}
+
+#cotisation{
+	text-align: left; 
+	border:3px outset grey;
+	border-radius: 20px;
+	float: right;
+	width:25%;
+	padding: 10px;
+	
+}
+#tarifsactivite{
+	text-align: left;
+	border:3px outset grey;
+	border-radius: 20px;
+	float: left;
+	width:65%; 
+	padding: 10px;
+}
+
+#membresComite{
+	text-align: left;
+	border:3px outset grey;
+	border-radius: 20px;
+	float: left;
+	width:45%; 
+	padding: 10px;
+	
+}
+#fonctionnementComite{
+	text-align: left; 
+	border:3px outset grey;
+	border-radius: 20px;
+	float: right;
+	width:45%;
+	padding: 10px;
+}
+
+#Galerie{
+	width: 80%; 
+	margin : 10%; 
+	margin-top: 0px; 
+}
